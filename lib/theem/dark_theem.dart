@@ -9,7 +9,7 @@ ThemeData lightTheem = ThemeData(
     primaryColorLight: AppColor.buttonbackgroundDarkcolor,
     textTheme: TextTheme(
         headline1: TextStyle(
-      color: Colors.white,
+      color: Colors.black,
       fontSize: 40,
       fontWeight: FontWeight.bold,
     )),
