@@ -13,11 +13,11 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     final Size = MediaQuery.of(context).size;
-    return SingleChildScrollView(
+    return Scaffold(
+        body: SingleChildScrollView(
       child: Container(
         width: Size.width,
         height: Size.height,
-        color: Colors.green,
         padding: const EdgeInsets.only(
           left: 20,
           right: 20,
@@ -31,9 +31,29 @@ class _LoginPageState extends State<LoginPage> {
               "Hello,\nWelcome Back",
               style: Theme.of(context).textTheme.headline1,
             ),
+            Column(
+              children: [
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: const [
+                    Image(
+                      width: 55,
+                      image: AssetImage("asserts/images/google.png"),
+                    ),
+                    SizedBox(
+                      width: 40,
+                    ),
+                    Image(
+                      width: 40,
+                      image: AssetImage("asserts/images/fb.png"),
+                    ),
+                  ],
+                )
+              ],
+            )
           ],
         ),
       ),
-    );
+    ));
   }
 }

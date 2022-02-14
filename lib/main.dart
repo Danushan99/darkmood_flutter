@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
-      home: LoginPage(),
+      home: const LoginPage(),
       theme: AppTheem.light,
       darkTheme: darkTheem,
       themeMode: ThemeMode.system,
