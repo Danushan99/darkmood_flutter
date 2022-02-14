@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'app_color.dart';
 
-ThemeData lightTheem = ThemeData(
+ThemeData darkTheem = ThemeData(
     brightness: Brightness.light,
     backgroundColor: AppColor.bodyColor,
     scaffoldBackgroundColor: AppColor.bodyColor,
