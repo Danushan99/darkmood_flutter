@@ -77,8 +77,7 @@ class _LoginPageState extends State<LoginPage> {
                   child: TextField(
                     obscureText: true,
                     decoration: InputDecoration(
-                        hintText: "Enter Password Bro",
-                        border: InputBorder.none),
+                        hintText: "Enter Password ", border: InputBorder.none),
                   ),
                 ),
                 SizedBox(
