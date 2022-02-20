@@ -92,7 +92,7 @@ class _LoginPageState extends State<LoginPage> {
             Column(
               children: [
                 RaisedButton(
-                  padding: EdgeInsets.all(10),
+                  padding: EdgeInsets.all(11),
                   onPressed: () => {},
                   elevation: 0,
                   shape: RoundedRectangleBorder(
@@ -107,7 +107,7 @@ class _LoginPageState extends State<LoginPage> {
                 SizedBox(
                   height: 30,
                 ),
-                Text("Create Account",
+                Text("Create Accounts",
                     style: Theme.of(context).textTheme.bodyText1),
               ],
             ),
